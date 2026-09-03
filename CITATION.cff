@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use refaudit, please cite this software."
+title: "refaudit: downstream reference-genome stability auditing"
+type: software
+version: 0.1.1
+date-released: 2026-09-03
+authors:
+  - name: "refaudit contributors"
+license: MIT
+abstract: >-
+  An offline Rust CLI for comparing matched downstream bioinformatics
+  result tables produced against different reference genomes.
+keywords:
+  - bioinformatics
+  - reproducibility
+  - reference genome
+  - quality control

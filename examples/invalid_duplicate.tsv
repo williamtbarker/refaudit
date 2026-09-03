@@ -1,0 +1,4 @@
+reference	sample_id	feature_id	value	status
+hg38	sample_01	metric_a	1.0	pass
+hg38	sample_01	metric_a	1.1	pass
+chm13	sample_01	metric_a	1.0	pass

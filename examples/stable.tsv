@@ -1,0 +1,17 @@
+reference	sample_id	feature_id	value	status
+hg38	sample_01	IFITM3	1.820	significant
+hg38	sample_01	MX1	2.410	significant
+hg38	sample_01	OAS1	1.120	significant
+hg38	sample_01	ISG15	1.540	significant
+hg38	sample_02	IFITM3	1.640	significant
+hg38	sample_02	MX1	2.120	significant
+hg38	sample_02	OAS1	0.920	not_significant
+hg38	sample_02	ISG15	1.330	significant
+chm13	sample_01	IFITM3	1.820	significant
+chm13	sample_01	MX1	2.410	significant
+chm13	sample_01	OAS1	1.120	significant
+chm13	sample_01	ISG15	1.540	significant
+chm13	sample_02	IFITM3	1.640	significant
+chm13	sample_02	MX1	2.120	significant
+chm13	sample_02	OAS1	0.920	not_significant
+chm13	sample_02	ISG15	1.330	significant
