@@ -5,8 +5,11 @@ type: software
 version: 0.1.1
 date-released: 2026-09-03
 authors:
-  - name: "refaudit contributors"
+  - family-names: "Barker"
+    given-names: "Will"
 license: MIT
+repository-code: "https://github.com/williamtbarker/refaudit"
+url: "https://github.com/williamtbarker/refaudit"
 abstract: >-
   An offline Rust CLI for comparing matched downstream bioinformatics
   result tables produced against different reference genomes.
