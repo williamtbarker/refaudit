@@ -1,5 +1,7 @@
 # refaudit
 
+[![CI](https://github.com/williamtbarker/refaudit/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/williamtbarker/refaudit/actions/workflows/ci.yml) [![Release](https://img.shields.io/github/v/release/williamtbarker/refaudit)](https://github.com/williamtbarker/refaudit/releases) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 `refaudit` is a small, offline Rust CLI for answering a reproducibility question that is easy to miss:
 
 > If I process the same biological samples against a different reference genome, do my downstream results materially change?
