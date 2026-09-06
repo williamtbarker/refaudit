@@ -135,6 +135,13 @@ The verification target checks formatting, runs Clippy with warnings denied, exe
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for development conventions and [VERIFICATION.md](VERIFICATION.md) for the release-candidate test record.
 
+## Synthetic scale benchmark
+
+On an Apple M2 Max, RefAudit processed one million synthetic long-format rows in a median
+2.79 seconds across three runs, and each same-run repeat produced
+byte-identical JSON. Median peak RSS was 442 MiB, making memory
+reduction an explicit optimization target. [Method, ranges, and determinism qualification](docs/BENCHMARK_MACOS_2026-09-03.md).
+
 ## Scope and roadmap
 
 Version 0.1 intentionally accepts one canonical long table and makes no assumptions about assay semantics. Reasonable future additions include per-feature grouping, a manifest for separate per-reference files, and HTML visualization. Coordinate liftover and biological “best reference” recommendations are deliberately out of scope.

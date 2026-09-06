@@ -1,0 +1,79 @@
+{
+  "cases": [
+    {
+      "case": "keys100000",
+      "commit": "661545d8c4191df2224b46346e72de972066497b",
+      "metrics": {
+        "byte_deterministic": true,
+        "comparable_keys": 100000,
+        "input_rows": 200000,
+        "input_sha256": "e79bd25363825db92a3dcf5ca81218d98c9c45f6f82a2953931d9ce277496e9d",
+        "output_sha256": "7dbc59c436880e6d4887aec0988cf628be05c591f6df9e3225c335d4f8399a99",
+        "repeat_wall_seconds": 0.503554
+      },
+      "n": 3,
+      "peak_rss_mib_max": 88.781,
+      "peak_rss_mib_median": 87.688,
+      "peak_rss_mib_min": 87.562,
+      "returncodes": [
+        0,
+        0,
+        0
+      ],
+      "status": "PASS",
+      "tool": "refaudit",
+      "wall_seconds_cv_percent": 1.883,
+      "wall_seconds_max": 0.522034,
+      "wall_seconds_median": 0.505477,
+      "wall_seconds_min": 0.505265
+    },
+    {
+      "case": "keys500000",
+      "commit": "661545d8c4191df2224b46346e72de972066497b",
+      "metrics": {
+        "byte_deterministic": true,
+        "comparable_keys": 500000,
+        "input_rows": 1000000,
+        "input_sha256": "04a9ddf13b050f4ac7e6fd4a18841f7fe0dd3e457ccec6c704b297119cefa6fc",
+        "output_sha256": "eca1f89581276219951ef7f61f4e5afce8c492da00e914a80f9ca3d21ec74be0",
+        "repeat_wall_seconds": 2.847567
+      },
+      "n": 3,
+      "peak_rss_mib_max": 445.078,
+      "peak_rss_mib_median": 442.391,
+      "peak_rss_mib_min": 429.609,
+      "returncodes": [
+        0,
+        0,
+        0
+      ],
+      "status": "PASS",
+      "tool": "refaudit",
+      "wall_seconds_cv_percent": 3.477,
+      "wall_seconds_max": 2.883609,
+      "wall_seconds_median": 2.786342,
+      "wall_seconds_min": 2.689808
+    }
+  ],
+  "date": "2026-09-03",
+  "environment": {
+    "cargo": "cargo 1.98.1 (797e8a9bc 2026-08-05)",
+    "cpu_brand": "Apple M2 Max",
+    "git": "git version 2.39.3 (Apple Git-146)",
+    "hardware_model": "Mac14,6",
+    "logical_cpus": 12,
+    "machine": "arm64",
+    "physical_memory_bytes": "103079215104",
+    "platform": "macOS-14.7.6-arm64-arm-64bit",
+    "processor": "arm",
+    "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+    "release": "23.6.0",
+    "rustc": "rustc 1.98.1 (48a229cea 2026-09-01)",
+    "system": "Darwin"
+  },
+  "limitations": "Synthetic engineering evidence; not biological or clinical validation.",
+  "replicates": 3,
+  "schema_version": "1.0",
+  "source_commit": "661545d8c4191df2224b46346e72de972066497b",
+  "tool": "refaudit"
+}
