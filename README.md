@@ -24,6 +24,8 @@ This project is independent of those studies and does not reproduce their analys
 Requires Rust 1.83 or newer.
 
 ```bash
+git clone https://github.com/williamtbarker/refaudit.git
+cd refaudit
 cargo install --path . --locked
 refaudit audit \
   --input examples/reference_sensitive.tsv \

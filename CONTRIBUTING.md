@@ -4,7 +4,7 @@ Small, reviewable changes are welcome.
 
 ## Setup
 
-Install Rust 1.85 or newer, clone the repository, and run:
+Install Rust 1.83 or newer, clone the repository, and run:
 
 ```bash
 make verify
